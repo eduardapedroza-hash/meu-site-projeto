@@ -1,16 +1,19 @@
 body{
   background-color: seashell;
-  color: maroon;
+  color: rgb(86, 57, 216);
   display: flex;
   flex-direction: column;
   align-items: center;
   margin:50px
 }
+
+
 h1{
-  font-size: 40px;
-  text-align: center;
-  font-family: "Molle", cursive;
-  font-weight: bold;
+  .tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 }
 p{
   text-align: justify
@@ -21,7 +24,7 @@ img{
    }
 a{
   text-decoration: none;
-  color: maroon;
+  color: rgb(189, 27, 27);
   text-align: center;
 }
 a:hover{
@@ -29,12 +32,12 @@ a:hover{
 }
 body.modo_escuro {
   background-color: black;
-  color: seashell;
+  color: rgba(26, 136, 240, 0.856);
 }
 
 
 button {
-  border: 2px solid green;
+  border: 2px solid rgb(111, 173, 111);
   border-radius: 20px;
   width: 80px;
   position: fixed;
